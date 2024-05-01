@@ -40,10 +40,11 @@ Getting Started:
    ```bash
    gcloud components update
 
-6. **Create the work pool:**
+6. **Download Docker:**
+   
+    https://docs.docker.com/get-docker/
 
-   ```bach
+7. **Create the work pool:**
+
+   ```bash
    prefect work-pool create --type cloud-run:push --provision-infra my-cloud-run-pool
-
-
-
