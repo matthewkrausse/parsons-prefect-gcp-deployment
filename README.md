@@ -45,6 +45,12 @@ Getting Started:
     https://docs.docker.com/get-docker/
 
 7. **Create the work pool:**
+   Using the --provision-infra flag will allow you to select a GCP project to use for your work pool and automatically configure it to be ready to execute flows via Cloud Run. In your GCP project, this command will activate the Cloud Run API, create a service account, and create a key for the service account, if they don't already exist. In your Prefect workspace, this command will create a GCPCredentials block for storing the service account key.
 
    ```bash
    prefect work-pool create --type cloud-run:push --provision-infra my-cloud-run-pool
+
+8. **Run the built in prefect flow deployment or create your own and run it**
+
+  ```bash
+  python test_deployment.py
