@@ -55,10 +55,10 @@ Getting Started:
    ```bash
    python test_deployment.py
 
-9. **Run the flow using the prefect UI or locally
+9. **Run the flow using the prefect UI or locally**
 
    It's optional to use the UI but you can create a free cloud account. When you run the above command, it will provide you code to run the flow through the CLI.
 
-10. **Let's go check the logs in Google Cloud and see that it really ran in the cloud!
+10. **Let's go check the logs in Google Cloud and see that it really ran in the cloud!**
 
 11. **That's it!**
