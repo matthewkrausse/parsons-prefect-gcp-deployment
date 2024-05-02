@@ -28,7 +28,7 @@ def print_hello_world():
 if __name__ == "__main__":
     print_hello_world.deploy(
         name="my-deployment",
-        work_pool_name="parsons-iac-demo-pool",
+        work_pool_name="my-cloud-run-pool",
         cron="0 1 * * *",
         image=DeploymentImage(
             name="my-image:latest",
